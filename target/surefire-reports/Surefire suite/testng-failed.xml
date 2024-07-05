@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="SeleniumPractice.SeleniumHybridFrameworkNew.TC_CartPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="launchApplication"/>
+          <include name="validateMessageWhileNoProductExistsInCart"/>
+        </methods>
+      </class> <!-- SeleniumPractice.SeleniumHybridFrameworkNew.TC_CartPageTest -->
+      <class name="SeleniumPractice.SeleniumHybridFrameworkNew.TC_ProductCatalogueTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkProductWithinInvalidPriceRange"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- SeleniumPractice.SeleniumHybridFrameworkNew.TC_ProductCatalogueTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
